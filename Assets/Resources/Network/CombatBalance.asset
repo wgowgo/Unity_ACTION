@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371e65ff5814c9f49ae574cbe6608efe, type: 3}
+  m_Name: CombatBalance
+  m_EditorClassIdentifier: Assembly-CSharp::CombatBalanceConfig
+  MaxHealth: 100
+  UltimateCost: 100
+  GuardDamageScale: 0.4
+  ParrySeconds: 0.12
+  DashActive: 0.2
+  DashRecovery: 0.1
+  DashCooldown: 1.5
+  CounterWindow: 0.8
+  MatchSeconds: 180
+  Light1:
+    Damage: 10
+    Startup: 0.15
+    Active: 0.1
+    Recovery: 0.2
+    Knockback: 2.5
+    HitStun: 0.28
+    Range: 1.15
+    GaugeGain: 20
+  Light2:
+    Damage: 12
+    Startup: 0.18
+    Active: 0.12
+    Recovery: 0.25
+    Knockback: 3.2
+    HitStun: 0.32
+    Range: 1.25
+    GaugeGain: 20
+  Light3:
+    Damage: 20
+    Startup: 0.25
+    Active: 0.15
+    Recovery: 0.4
+    Knockback: 6.5
+    HitStun: 0.48
+    Range: 1.45
+    GaugeGain: 25
+  Counter:
+    Damage: 25
+    Startup: 0.2
+    Active: 0.12
+    Recovery: 0.4
+    Knockback: 5.5
+    HitStun: 0.42
+    Range: 1.35
+    GaugeGain: 15
+  Ultimate:
+    Damage: 50
+    Startup: 0.5
+    Active: 0.25
+    Recovery: 0.8
+    Knockback: 8
+    HitStun: 0.7
+    Range: 2.1
+    GaugeGain: 0
